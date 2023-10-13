@@ -1,0 +1,121 @@
+.artist_page {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  top: 80px;
+  flex: 0.2;
+  border-radius: 10px;
+  text-align: center;
+  height: fit-content;
+}
+
+.sidebar_left {
+  display: flex;
+  flex: 0.4;
+  flex-direction: column;
+  align-items: left;
+  border: 1px solid lightgray;
+  border-bottom: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  max-width: 250px;
+}
+
+.gallery_right {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+}
+
+.sidebar_left > img {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  align-self: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.video_gallery {
+  padding: 80px;
+}
+
+.image_gallery {
+  padding: 80px;
+}
+
+.bio {
+  padding: 80px;
+}
+
+
+/* search feature  */
+.sp-selected-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.sp-selected-filter {
+  margin-right: 5px;
+}
+
+.no-highlight:focus {
+  box-shadow: none !important;
+}
+/**/
+/* 
+suggested class */
+
+
+.search-bar-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.search-input {
+  width: 80%; /* Adjust the width as needed */
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.search-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+
+.suggestion-item {
+  cursor: pointer;
+}
+
+.suggestion-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: grey;
+  }
+}
+
+
+
+.suggestion-list {
+  position: absolute;
+  z-index: 1000;
+  background-color: black;
+  color: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  list-style-type: none; 
+  padding-left: 0; 
+  margin-top: 2px; 
+
+}
+
+

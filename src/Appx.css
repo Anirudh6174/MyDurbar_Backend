@@ -1,0 +1,493 @@
+html,
+#root,
+body,
+.App {
+  height: 100%;
+  font-family: "Gantari-ExtraLight", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Teko";
+  font-weight: 400;
+  src: local("Teko"), url(./Fonts/Teko-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Teko";
+  font-weight: 700;
+  src: local("Teko"), url(./Fonts/Teko-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gantari-ExtraLight";
+  src: local("Gantari-ExtraLight"),
+    url(./Fonts/Gantari-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Teko";
+  font-weight: 500;
+  src: local("Teko"), url(./Fonts/Teko-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Teko-Light";
+  font-weight: 300;
+  src: local("Teko"), url(./Fonts/Teko-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Teko";
+  font-weight: 600;
+  src: local("Teko"), url(./Fonts/Teko-SemiBold.ttf) format("truetype");
+}
+.App {
+  font-family: "Gantari-ExtraLight", sans-serif !important;
+}
+.App {
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Optional: show position indicator */
+::-webkit-scrollbar-thumb {
+  background-color: rgb(74, 16, 16);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #18171779;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: #f45f0b !important;
+}
+
+body,
+.App {
+  background-color: #000;
+}
+
+.questionHeading {
+  color: #ffffff;
+}
+.header .bg-dark {
+  background-color: rgba(28, 30, 31, 0.117) !important;
+}
+
+.CustomCardRow-wrapper {
+  height: 100vh;
+}
+
+.CustomCardRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.CustomCard {
+  cursor: pointer;
+  margin: 35px;
+}
+
+.fourCardStyleNoBorder {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  width: 300px;
+  height: 550px !important;
+  /* background-color: rgba(255, 255, 255, 0.541); */
+  background-color: rgb(255 255 255 / 60%);
+  color: #000;
+  /* box-shadow: 5px 10px 16px #857f7f6b; */
+  padding-bottom: 15px;
+}
+.fourCardStyleNoBorder:hover {
+  box-shadow: 3px 5px 8px #857f7f6b;
+}
+
+.fourCardStyleNoBorder > span {
+  width: 100px;
+  font-size: 12px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+.CardImageBlog {
+  display: block;
+  align-self: center;
+  box-shadow: 2px 3px 4px #857f7f6b;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width: 100%;
+}
+.subsCardHeading {
+  padding: 10px;
+}
+
+/* ------------------------------- Ap-profilePage ------------------- */
+.ap-body-Wrapper {
+  margin: 0px 150px;
+  padding-top: 10px;
+}
+
+/* ToDo - mobile css- remove margin when in mobile */
+
+.ap-profileBanner-Wrapper {
+  width: 100%;
+  color: white;
+  padding: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 3;
+}
+
+.ap-rating {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  padding-bottom: 15px;
+}
+
+.ap-bookingForm {
+  padding: 10px;
+  margin: 5px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.ap-bookingForm-review-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+.modal-content li {
+  list-style-type: none !important;
+  max-width: fit-content;
+}
+
+.modal-content ul {
+  columns: 3;
+}
+
+.ap-bookingForm .p-inputtext,
+.ap-bookingForm .p-inputnumber {
+  width: 100%;
+}
+
+.ap-display-image > img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  font-family: "Gantari-ExtraLight", sans-serif !important;
+}
+
+.ap-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ap-infoRow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ap-actionButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.ap-actionButtons > button {
+  margin: 5px;
+}
+
+.ap-profile-ImgWrapper .pi {
+  padding: 5px;
+}
+
+.ap-profile-ImgWrapper img {
+  border-radius: 25px;
+}
+
+.ap-profile-ImgWrapper img:hover {
+  box-shadow: 3px 6px 6px #857f7f6b;
+}
+
+.ap-profile-ImgWrapper {
+  flex: 2;
+  padding: 0px 20px;
+}
+
+.ap-profile-banner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Gantari-ExtraLight", sans-serif !important;
+}
+
+.ap-profileBody-video {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.modal-header .btn-close {
+  background-color: #ffffff !important;
+}
+
+.ap-profileBody > h3 {
+  text-align: left !important;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.ap-individual-vid-card {
+  padding: 10px;
+  margin: 5px;
+  max-height: 200px;
+}
+
+.ap-individual-vid-card:hover {
+  box-shadow: 3px 5px 8px #efecec6b;
+}
+
+.ap-genreCrousel {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.ap-profileBody {
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+.ap-profileBody-photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ap-individual-img-card {
+  padding: 10px;
+  margin: 5px;
+  max-height: 200px;
+}
+
+.ap-individual-img-card:hover {
+  box-shadow: 3px 5px 8px #efecec6b;
+}
+
+.ap-profileBody-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: white;
+  text-align: left !important ;
+  padding: 20px;
+}
+
+.ap-fixedDivHeightX {
+  padding: 20px;
+  text-align: left !important ;
+}
+
+.ap-profileBody-photos {
+  text-align: center !important;
+}
+
+/* ------------------------------- sp- searchPage------------------- */
+
+.sp-wrapper {
+  width: 100%;
+
+  background-image: rgb(36, 24, 24);
+}
+
+.sp-wrapper > h1 {
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
+.btn-close {
+  color: white !important;
+}
+
+.heading-search {
+  font-family: "Gantari-ExtraLight" !important;
+}
+
+.sp-heading-in-badge {
+  padding: 10px 20px;
+}
+
+#sp-transparent-badge {
+  background-color: rgba(74, 16, 16, 0.428) !important;
+}
+.nav-tabs .nav-link.active {
+  background-color: rgb(36, 10, 10) !important;
+  color: white !important;
+}
+
+.modal-content {
+  background-color: rgb(30 10 10) !important ;
+  color: white !important;
+}
+
+.sp-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.badge {
+  --bs-badge-font-size: 0.55em !important;
+}
+
+.sp-blockUi-wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(195, 9, 9, 0.245));
+  background-color: initial;
+}
+
+.sp-spinner-wrapper {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sp-spinner {
+  margin: 55px;
+}
+
+.sp-badgeBackground {
+  font-size: 30px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  line-height: 1;
+  background-color: rgb(27, 30, 31) !important;
+  border-radius: 5px;
+  margin: 0px 8%;
+}
+
+.ap-navBar-Wrapper .nav-link {
+  color: red !important;
+}
+.sp-heading {
+  min-height: 150px;
+  margin: 60px 0px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sp-heading h1 {
+  font-size: 62px;
+  font-family: inherit;
+  font-weight: 200;
+}
+.sp-heading h3 {
+  font-weight: 200;
+}
+
+.sp-optionsCard .card {
+  min-width: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+  .ap-body-Wrapper {
+    margin: 0px;
+  }
+
+  .ap-profile-banner {
+    padding: 10px 0;
+  }
+
+  .sp-badgeBackground {
+    font-size: 20px !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    line-height: 1;
+    background-color: rgb(27, 30, 31) !important;
+    vertical-align: baseline;
+    border-radius: 5px;
+  }
+}
+
+.p-rating .p-rating-icon.pi-star-fill {
+  color: #ffc107 !important;
+}
+
+@media only screen and (max-width: 480px) {
+  .heading-search {
+    margin: 0px;
+    font-size: 28px !important;
+    font-weight: 100;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .sp-heading {
+    min-height: 50px;
+    margin: 20px 0px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffffff;
+  }
+  .ap-details-bio {
+    font-size: 18px;
+  }
+  .sp-card-genre {
+    font-size: 18px;
+  }
+}
+
